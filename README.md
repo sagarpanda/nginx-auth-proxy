@@ -1,6 +1,8 @@
 # NGINX Auth Proxy
 nginx as an authentication proxy
 
+> **NOTE:** This repository serves as a demonstration for auth proxy. It is not intended for production use.
+
 ## Development
 
 ```sh
@@ -26,3 +28,4 @@ upstream authenticate{
   server xx.xx.xx.xx:8001;
 }
 ```
+> Running at http://localhost:8000
